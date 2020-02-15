@@ -8,8 +8,6 @@ Requisitos:
 
 - [Vue CLI](#Vue-CLI)
 
-- Todos los comandos se ejecutan desde raíz del proyecto.
-
 
 ## Docker
 
@@ -141,7 +139,6 @@ Ahora levantamos el contenedor con: `docker-compose up -d`.
 Hay que tener en cuenta que si usamos docker-compose va a crear la imagen a partir del Dockerfile, no necesitamos ejecutar `build` primero, y luego va a ejecutar `run` con las opciones de volúmenes y puertos igual que con el comando `run`.
 
 Con `docker-compose` podemos añadir más servicios (contenedores) como bases de datos, servidor, app para backoffice, etc. e interconectarlos.
-
 
 
 ## Aplicación prexistente
