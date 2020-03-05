@@ -2,7 +2,7 @@ version: '3'
 
 services:
 
-  angular-app:
+  vue-app:
     container_name: ${PROJECT_NAME}
     build:
       context: .
